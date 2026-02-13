@@ -2,6 +2,8 @@
 
 A simple bash script to analyze and clean up server logs on Linux. Helps reclaim disk space when `/var/log` grows too large.
 
+![Log Doctor screenshot](screenshot.png)
+
 ## Requirements
 
 - Linux (Debian or Red Hat based)
@@ -10,6 +12,12 @@ A simple bash script to analyze and clean up server logs on Linux. Helps reclaim
 
 ## Usage
 
+**Direct run (no download):**
+```bash
+curl -sSL https://raw.githubusercontent.com/tcpzix/log-doctor/refs/heads/main/log-doc.sh | sudo bash
+```
+
+**Or clone and run locally:**
 ```bash
 sudo ./log-doc.sh
 ```
